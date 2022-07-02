@@ -9,9 +9,8 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-import os
-SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -53,13 +52,16 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'project.urls'
+SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 
-Temp_DIR = str(Path(__file__).resolve().parent) + '/Templates'
+TEMPLATE_DIRS = (
+    os.path.join(SETTINGS_PATH, 'templates'),
+)
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [Temp_DIR],
+        'DIRS': [TEMPLATE_DIRS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
