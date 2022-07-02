@@ -12,49 +12,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{% static 'css/Emergency.css' %}">
-    <title> Report </title>
-
-
-    <script>
-
-      function report1(){
-         window.location="report_weekly.html";
-      }
-      function report2(){
-         window.location="report_daily.html";
-      }
-      
-    </script>
-
-   <style>
-      table {
-      border-collapse: collapse;
-      width: 100%;
-      /* text-align: center;  */
-      /* border: 5px solid white;  */
-      padding: 50px; 
-      /* height: 60%;  */
-      background-color: rgb(73, 80, 79);
-      }
-      
-      th {
-      text-align: center;
-      /* padding: 8px; */
-      padding: 50px; 
-
-      }
-      td{
-         padding: 10px; 
-         text-align: center;
-
-      }
-      
-      tr:nth-child(even) {background-color: #f2f2f2;}
-      </style>
+    <title> ID </title>
 
 </head>
 
-<body style="background: -webkit-linear-gradient(left, #3931af, #00c6ff); background-attachment: fixed;">
+<body>
 
         <header style="background: rgb(37, 35, 35); height: 50px; position : abslute ;">
             <div class ="head" align="right" style="padding-top: 10px;">
@@ -69,16 +31,15 @@
               <p>
               </div>
           </header>
+          <!-- <h6> @Beni Suef University Hospital</h6> -->
+    
+          <h1 style="text-align: center; margin: 10% 20%; padding: 20px 10px; color: black; border: 10px solid rgb(39, 112, 88);; background-color: aquamarine;">
+            <p>@University Hospital</p>
+            Name :      {{ person.name }} <br>
+            Clinic :      {{ person.clinic }} <br>
+            ID :     {{ count }} 
 
-          <center>
-            <h1 style="padding: 110px 100px;">
-
-               <button type="button" class="button" onclick="report1();" > Report weekly </button> 
-               <button type="button" class="button" onclick="report2();" > Report daily </button> 
-   
-             </h1>
-         </center>
-
+          </h1>   
 
     <footer>
         <div class="footer">

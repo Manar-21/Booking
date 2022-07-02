@@ -6,20 +6,52 @@
   
           
   <title> Appointment </title>
-  
-    <link rel="stylesheet" type="text/css" href="{% static 'css/feedback.css' %}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/feedback.css' %}"> -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
     <link rel="stylesheet" href="{% static 'css/appointment.css' %}">
 
     <script type="text/javascript">
 
-function redirect(){
-          window.location="form.html";
-          setTimeout('redirect()',10000); 
-          onclick=alert("You will now be directed to the registration form");
-      } 
+              function redirect1(){
+                  window.location="Saturday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+              function redirect2(){
+                  window.location="Sunday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+              function redirect3(){
+                  window.location="Monday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+              function redirect4(){
+                  window.location="Tuesday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+              function redirect5(){
+                  window.location="Wednesday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+
+              function redirect6(){
+                  window.location="Thursday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+              function redirect7(){
+                  window.location="Friday.html";
+                  // setTimeout('redirect()',10000); 
+                  // onclick=alert("You will now be directed to the registration form");
+              } 
+
       function supports_html5_storage() {
       try {
         return 'localStorage' in window && window['localStorage'] !== null;
@@ -74,12 +106,9 @@ function redirect(){
       <header style="background: rgb(37, 35, 35); height: 50px; position : abslute ;">
         <div class ="head" align="right" style="padding-top: 10px;">
           <a href="index.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;">Home </a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <!-- <a href="virtual_tour.mp4" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Virtual Tour</a>&nbsp;&nbsp;&nbsp; -->
-          <a href="Emergency.html" target="_self" style="font-size: 20px; color: red; font-family: 'IBM Plex Sans', sans-serif;"> Emergency  </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="Appointment.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Appointment  </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="Review.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Review  </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="ApppintmentReviews.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Appointment Reviews   </a>&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="ChestX-Ray.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Corona-XRay   </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="Login.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Login </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="Login_Report.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> login_report </a>&nbsp;&nbsp;&nbsp;&nbsp;
           <a href="contact.html" target="_self" style="font-size: 20px; color: white;font-family: 'IBM Plex Sans', sans-serif;"> Contact us </a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -124,9 +153,9 @@ function redirect(){
             </thead>
           <tr>
               <td>Woman and production </td>
-             <td> <button type="button" class="button"  onclick="redirect();">book now</button> </td> 
+             <td> <button type="button" class="button"  onclick="redirect1();">book now</button> </td> 
               <td></td>
-              <td><button type="button" class="button" onclick="redirect();" >book now</button> </td>
+              <td><button type="button" class="button" onclick="redirect3();" >book now</button> </td>
               
               <td></td>
               <td></td>
@@ -138,9 +167,9 @@ function redirect(){
         </thead>
         <tr>
             <td>Bones</td>
-           <td> <button type="button" class="button"  onclick="redirect();">book now</button> </td> 
+           <td> <button type="button" class="button"  onclick="redirect1();">book now</button> </td> 
             <td></td>
-            <td><button type="button" class="button" onclick="redirect();" >book now</button> </td>
+            <td><button type="button" class="button" onclick="redirect3();" >book now</button> </td>
             
             <td></td>
             <td></td>
@@ -151,12 +180,11 @@ function redirect(){
         </tr>
         <tr>
           <td>Children</td>
-         <td> <button type="button" class="button"  onclick="redirect();">book now</button> </td> 
+         <td> <button type="button" class="button"  onclick="redirect1();">book now</button> </td> 
           <td></td>
-          <td><button type="button" class="button" onclick="redirect();" >book now</button> </td>
-          
+          <td><button type="button" class="button" onclick="redirect3();" >book now</button> </td>
           <td></td>
-          <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+          <td><button type="button" class="button" onclick="redirect5();" >book now</button></td>
           <td></td>
           <td></td>
           <td>9am:1pm</td>
@@ -164,12 +192,11 @@ function redirect(){
       </tr>
       <tr>
         <td>internally</td>
-       <td> <button type="button" class="button"  onclick="redirect();">book now</button> </td> 
+       <td> <button type="button" class="button"  onclick="redirect1();">book now</button> </td> 
         <td></td>
-        <td><button type="button" class="button" onclick="redirect();" >book now</button> </td>
-        
+        <td><button type="button" class="button" onclick="redirect3();" >book now</button> </td>        
         <td></td>
-        <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+        <td><button type="button" class="button" onclick="redirect5();" >book now</button></td>
         <td></td>
         <td></td>
         <td>9am:1pm</td>
@@ -179,7 +206,7 @@ function redirect(){
             <td>Cardiothoracic surgery</td>
             <td></td>
             <td></td>
-            <td><button type="button" class="button" onclick="redirect();">book now</button> </td>
+            <td><button type="button" class="button" onclick="redirect3();">book now</button> </td>
             <td></td>
             <td></td>
             <td></td>
@@ -190,11 +217,11 @@ function redirect(){
       </tr>
       <tr>
         <td>Mental</td>
-        <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+        <td><button type="button" class="button" onclick="redirect1();" >book now</button></td>
         <td></td>
-        <td><button type="button" class="button" onclick="redirect();" >book now</button> </td>
+        <td><button type="button" class="button" onclick="redirect3();" >book now</button> </td>
         <td></td>
-        <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+        <td><button type="button" class="button" onclick="redirect5();" >book now</button></td>
         <td></td>
         <td></td>
         <td>9am:1pm</td>
@@ -202,11 +229,11 @@ function redirect(){
     </tr>
     <tr>
       <td>IQ test</td>
-      <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+      <td><button type="button" class="button" onclick="redirect1();" >book now</button></td>
       <td></td>
-      <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+      <td><button type="button" class="button" onclick="redirect3();" >book now</button></td>
       <td></td>
-      <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+      <td><button type="button" class="button" onclick="redirect5();" >book now</button></td>
       <td></td>
       <td></td>
       <td>9am:1pm</td>
@@ -227,22 +254,22 @@ function redirect(){
 <tr>
   <td>Nervous women</td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect2();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect6();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
 </tr>
 <tr>
   <td>Heart</td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect1();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect5();" >book now</button></td>
   <td></td>
   <td></td>
   <td>9am:1pm</td>
@@ -251,7 +278,7 @@ function redirect(){
 <tr>
   <td>cosmetic / Burns</td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect2();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -264,22 +291,10 @@ function redirect(){
   <td>Cardiothoracic surgery</td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >Book now</button></td>
+  <td><button type="button" class="button" onclick="redirect3();" >Book now</button></td>
   <td></td>
   <td></td>
   <td></td>
-  <td></td>
-  <td>9am:1pm</td>
-  <td>First floor upstairs</td>
-</tr>
-<tr>
-  <td>Blood vessels</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
@@ -291,16 +306,16 @@ function redirect(){
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect6();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
 </tr>
 <tr>
   <td>endemic (liver)</td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect1();" >book now</button></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect3();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -309,11 +324,11 @@ function redirect(){
   <td>First floor upstairs</td>
 </tr>
 <tr>
-  <td>multiple sclerosis(MS)</td>
+  <td>Multiple sclerosis(MS)</td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect4();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -321,13 +336,13 @@ function redirect(){
   <td>First floor upstairs</td>
 </tr>
 <tr>
-  <td>diabetic foot</td>
+  <td>Diabetic foot</td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect6();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
@@ -335,33 +350,33 @@ function redirect(){
 <tr>
   <td>Neurologists</td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect2();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
-  <td></td>
-  <td>9am:1pm</td>
-  <td>First floor upstairs</td>
-</tr>
-<tr>
-  <td>diabetic foot</td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
-  <td></td>
-  <td></td>
+  <td><button type="button" class="button" onclick="redirect6();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
 </tr>
 <tr>
-  <td>immunity</td>
+  <td>Diabetic foot</td>
   <td></td>
   <td></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect4();" >book now</button></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>9am:1pm</td>
+  <td>First floor upstairs</td>
+</tr>
+<tr>
+  <td>Immunity</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td><button type="button" class="button" onclick="redirect4();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -371,20 +386,20 @@ function redirect(){
 <tr>
   <td>Emergency</td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect2();" >book now</button></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect4();" >book now</button></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect6();" >book now</button></td>
   <td></td>
   <td>9am:1pm</td>
   <td>First floor upstairs</td>
 </tr>
 <tr>
   <td>Bra</td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect1();" >book now</button></td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect3();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -395,7 +410,7 @@ function redirect(){
 <tr>
   <td>Andrology Diseases</td>
   <td></td>
-  <td><button type="button" class="button" onclick="redirect();" >book now</button></td>
+  <td><button type="button" class="button" onclick="redirect2();" >book now</button></td>
   <td></td>
   <td></td>
   <td></td>
@@ -406,10 +421,10 @@ function redirect(){
 </tr>
 
         <tr>
-            <td>nose and ear</td>
-            <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
+            <td>Nose and Ear</td>
+            <td><button type="button"  class="button" onclick="redirect1();">book now</button> </td>
             <td></td>
-            <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
+            <td><button type="button" class="button" onclick="redirect3();">book now</button> </td>
             <td></td>
             <td></td>
             <td></td>
@@ -418,70 +433,58 @@ function redirect(){
             <td>Second floor upstairs</td>
         </tr>
         <tr>
-          <td>specialized children</td>
-          <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
-          <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
-          <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
+          <td>Specialized Children</td>
+          <td><button type="button"  class="button" onclick="redirect1();">book now</button> </td>
+          <td><button type="button" class="button" onclick="redirect2();">book now</button></td>
+          <td><button type="button" class="button" onclick="redirect3();">book now</button> </td>
           <td></td>
-          <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
+          <td><button type="button" class="button" onclick="redirect5();">book now</button></td>
           <td></td>
           <td></td>
           <td>9am:1pm</td>
           <td>Second floor upstairs</td>
       </tr>
       <tr>
-        <td>Speech and binoculars</td>
-        <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
+        <td>Speech and Binoculars</td>
+        <td><button type="button"  class="button" onclick="redirect1();">book now</button> </td>
         <td></td>
-        <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
+        <td><button type="button" class="button" onclick="redirect3();">book now</button> </td>
         <td></td>
-        <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
+        <td><button type="button" class="button" onclick="redirect5();">book now</button></td>
         <td></td>
         <td></td>
         <td>9am:1pm</td>
         <td>Second floor upstairs</td>
     </tr>
     <tr>
-      <td>genes</td>
-      <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
-      <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
-      <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
+      <td>Genes</td>
+      <td><button type="button"  class="button" onclick="redirect1();">book now</button> </td>
+      <td><button type="button"  class="button" onclick="redirect2();">book now</button></td>
+      <td><button type="button" class="button" onclick="redirect3();">book now</button> </td>
+      <td><button type="button"  class="button" onclick="redirect4();">book now</button></td>
+      <td><button type="button" class="button" onclick="redirect5();">book now</button></td>
       <td></td>
       <td></td>
       <td>9am:1pm</td>
       <td>Second floor upstairs</td>
   </tr>
   <tr>
-    <td>leather</td>
-    <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
+    <td>Leather</td>
+    <td><button type="button"  class="button" onclick="redirect1();">book now</button> </td>
     <td></td>
     <td> </td>
-    <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button></td>
-    <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
+    <td><button type="button"  class="button" onclick="redirect4();">book now</button></td>
+    <td><button type="button" class="button" onclick="redirect5();">book now</button></td>
     <td></td>
     <td></td>
     <td>9am:1pm</td>
     <td>Second floor upstairs</td>
 </tr>
 <tr>
-  <td>sugar and endocrine</td>
+  <td>Sugar and Endocrine</td>
   <td> </td>
   <td></td>
-  <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td>9am:1pm</td>
-  <td>Second floor upstairs</td>
-</tr>
-<tr>
-  <td>sugar and endocrine</td>
-  <td> </td>
-  <td></td>
-  <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
+  <td><button type="button"  class="button" onclick="redirect3();">book now</button> </td>
   <td></td>
   <td></td>
   <td></td>
@@ -491,24 +494,24 @@ function redirect(){
 </tr>
       </tr>
       <tr>
-          <td>nervous men</td>
+          <td>Nervous Men</td>
           <td></td>
-          <td><button type="button"  class="button" onclick="alert('u will book now')">book now</button> </td>
+          <td><button type="button"  class="button" onclick="redirect2();">book now</button> </td>
           <td> </td>
           <td></td>
           <td></td>
-          <td><button type="button" class="button" onclick="alert('u will book now')">book now</button></td>
+          <td><button type="button" class="button" onclick="redirect6();">book now</button></td>
           <td></td>
           <td>9am:1pm</td>
           <td>Second floor upstairs</td>
       </tr>
         <tr>
             <td>Conjunctivitis</td>
-            <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
+            <td><button type="button" class="button"  onclick="redirect1();">book now</button> </td>
             <td></td>
-            <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
+            <td><button type="button" class="button"  onclick="redirect3();">book now</button> </td>
             <td></td>
-            <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
+            <td><button type="button" class="button" onclick="redirect5();">book now</button> </td>
             <td></td>
             <td></td>
             <td>9am:1pm</td>
@@ -518,10 +521,10 @@ function redirect(){
           <td>Rheumatism</td>
           <td> </td>
           <td></td>
-          <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
+          <td><button type="button" class="button"  onclick="redirect3();">book now</button> </td>
           <td></td>
-          <td><button type="button" class="button" onclick="alert('u will book now')">book now</button> </td>
-          <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
+          <td><button type="button" class="button" onclick="redirect5();">book now</button> </td>
+          <td><button type="button" class="button"  onclick="redirect6();">book now</button></td>
           <td></td>
           <td>9am:1pm</td>
           <td>Third floor upstairs</td>
@@ -529,23 +532,23 @@ function redirect(){
       <tr>
         <td>Urologist</td>
         <td></td>
-        <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
+        <td><button type="button" class="button"  onclick="redirect2();">book now</button> </td>
         <td></td>
         <td></td>
         <td></td>
-        <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
+        <td><button type="button" class="button"  onclick="redirect6();">book now</button></td>
         <td></td>
         <td>9am:1pm</td>
         <td>Third floor upstairs</td>
     </tr>
     <tr>
-      <td>Physical therapy</td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
-      <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
+      <td>Physical Therapy</td>
+      <td><button type="button" class="button"  onclick="redirect1();">book now</button></td>
+      <td><button type="button" class="button"  onclick="redirect2();">book now</button> </td>
+      <td><button type="button" class="button"  onclick="redirect3();">book now</button></td>
+      <td><button type="button" class="button"  onclick="redirect4();">book now</button></td>
+      <td><button type="button" class="button"  onclick="redirect5();">book now</button></td>
+      <td><button type="button" class="button"  onclick="redirect6();">book now</button></td>
       <td></td>
       <td>9am:1pm</td>
       <td>Third floor upstairs</td>
@@ -553,11 +556,11 @@ function redirect(){
   <tr>
     <td>lithotripsy</td>
     <td></td>
-    <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button> </td>
+    <td><button type="button" class="button"  onclick="redirect2();">book now</button> </td>
     <td></td>
-    <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
+    <td><button type="button" class="button"  onclick="redirect4();">book now</button></td>
     <td></td>
-    <td><button type="button" class="button"  onclick="alert('u will book now')">book now</button></td>
+    <td><button type="button" class="button"  onclick="redirect6();">book now</button></td>
     <td></td>
     <td>9am:1pm</td>
     <td>Third floor upstairs</td>
