@@ -1,0 +1,312 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Start Header */
+header {
+    width: 100%;
+    height: 100px;
+
+}
+
+header .container-header1 {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+header .container-header1 .left1 {
+    display: flex;
+    align-items: center;
+}
+
+header .container-header1 .left1 i {
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: all .3s;
+    cursor: pointer;
+}
+header .container-header1 .left1 i:hover {
+    transform: rotate(360deg);
+}
+
+header .container-header1 .right1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .container-header1 .right1 .lang1 {
+    padding: 7px 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50px;
+    font-weight: bolder;
+    color: rgba(51, 51, 51, 0.7);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s;
+    gap: 7px;
+}
+
+header .container-header1 .right1 .lang1:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+header .container-header1 .right1 .num1 {
+    padding: 7px 15px;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+header .container-header1 .right1 .num1 a {
+    color: white;
+}
+
+header .container-header1 .right1 .num1 a i {
+    transition: .3s;
+}
+
+header .container-header1 .right1 .num1:hover i {
+    transform: rotate(360deg);
+    margin-left: 10px;
+}
+
+header .container-header1 .right1 .num1:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* End Header */
+
+/* Start Landing  */
+.landing1 {
+    padding-bottom: 100px;
+    position: relative;
+}
+.landing1 .text {
+    padding-top: 150px;
+    padding-left: 150px;
+    width: 450px;
+    color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.landing1 .text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.landing1 .text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.landing1 .text p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 10px;
+}
+.landing1 .text form input {
+    width: 50%;
+    margin-top: 15px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    outline: none;
+    padding: 15px;
+}
+.landing1 .social-section1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 50px;
+    bottom: 102px;
+    gap: 20px;
+    font-size: 26px;
+    color: white;
+}
+.landing1 .social-section1 i {
+    transition: all .3s ;
+    cursor: pointer;
+}
+.landing1 .social-section1 i:hover {
+    transform: rotate(360deg);
+}
+
+/* End Landing  */
+
+/* start doctor  */
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/* End doctor  */
+
+
+/* Start Tourism */
+.about-us1 .container-one1 {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.about-us1 .right1 h3 {
+    color: #2C704F;
+    font-size: 24px;
+}
+
+.about-us1 .right1 .main-title-about1 {
+    font-weight: 800;
+    color: #2C704F;
+    line-height: 1.7;
+    font-size: 30px;
+}
+
+.about-us1 .right1 h5 {
+    line-height: 2.5;
+}
+
+.about-us1 .right1 button {
+    background-color: #2C704F;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 10px 19px;
+    border-radius: 50px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.about-us1 .right1 button i {
+    padding-left: 10px;
+    transition: .3s;
+}
+
+.about-us1 .right1 button:hover {
+    opacity: .6;
+}
+
+.about-us1 .right1 button:hover i {
+    transform: rotate(360deg);
+}
+
+/* End Tourism */
+.container1 {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.container1 .box {
+    width: calc(100% / 4);
+    display: flex;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 10%);
+    align-items: center;
+    transition: all .3s;
+}
+
+.container1 .box:hover {
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 25%);
+}
+
+.container1 .box-active {
+    background-color: #2C704F;
+    color: white;
+}
+
+.container1 .box i {
+    margin-right: 10px;
+    font-size: 40px;
+    transition: .3s;
+    color: #2C704F;
+}
+
+.container1 .box:hover i {
+    transform: rotate(360deg);
+}
+
+.main-title {
+    width: 75%;
+    margin: auto;
+    font-size: 21px;
+    color: #2C704F;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container1 .box-active i {
+    color: white !important;
+}

@@ -1,0 +1,299 @@
+@font-face {
+font-family: 'Tajawal';
+src: url('../font/Tajawal-Regular.ttf') format("truetype"), local('Tajawal');
+}
+
+body {
+font-family: 'Tajawal', sans-serif;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul {
+list-style: none;
+}
+
+.header .navbar {
+background-color: #fff;
+box-shadow: 0 .5rem .375rem -0.375rem rgb(0 0 0 / 40%);
+}
+
+.header .navbar-toggler {
+border: 0;
+color: black;
+}
+
+.header .navbar-toggler:focus {
+box-shadow: none;
+}
+
+.menu-navbar-nav .nav-item {
+margin-right: 15px;
+}
+
+.menu-navbar-nav .nav-item .nav-link {
+color: #212529;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.menu-navbar-nav .nav-item .nav-link:hover,
+.menu-navbar-nav .nav-item .nav-link.active {
+color: #395590;
+}
+
+.active {
+color: #395590;
+}
+
+.navbar-brand {
+width: 90px;
+height: 50px;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+margin-top: 0;
+}
+/* end of nav style */
+/* Start of diagnose style  */
+
+.home-img .img {
+margin-top: 3rem;
+}
+
+.home-img .diagnose h4 {
+font-size: 28px;
+}
+
+.home-img .content .percent {
+position: relative;
+width: 160px;
+height: 160px;
+}
+
+.home-img .content .percent p {
+font-size: 30px;
+}
+
+.home-img .content .percent .outer {
+width: 160px;
+height: 160px;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+padding: 20px;
+box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15), -6px -6px 10px -1px rgba(255, 255, 255, .7);
+}
+
+.home-img .content .percent .inner {
+width: 120px;
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, .2), inset -4px -4px 10px -1px rgba(255, 255, 255, .7), -0.5px -.5px 0px rgba(255, 255, 255, 1), 0.5px .5px 0px rgba(0, 0, 0, .15), 0px 12px 10px -10px rgba(0, 0, 0, .05);
+}
+
+.home-img .content .percent .inner .number {
+font-weight: 600;
+color: #555;
+}
+
+.home-img .content .percent circle {
+fill: none;
+stroke: url(#GradientColor);
+stroke-width: 20px;
+stroke-dasharray: 472;
+stroke-dashoffset: 472;
+animation: anim 2s linear forwards;
+-webkit-animation: anim 2s linear forwards;
+}
+
+.home-img .content .percent .c2 {
+animation: anim2 2s linear forwards;
+-webkit-animation: anim2 2s linear forwards;
+}
+
+.home-img .content .percent .c3 {
+animation: anim3 2s linear forwards;
+-webkit-animation: anim3 2s linear forwards;
+}
+
+.home-img .content .percent .c4 {
+animation: anim4 2s linear forwards;
+-webkit-animation: anim4 2s linear forwards;
+}
+
+.home-img .content .percent .c5 {
+animation: anim5 2s linear forwards;
+-webkit-animation: anim5 2s linear forwards;
+}
+
+.home-img .content .percent svg {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+@keyframes anim {
+100% {
+    stroke-dashoffset: 165;
+}
+}
+
+@keyframes anim2 {
+100% {
+    stroke-dashoffset: 283;
+}
+}
+
+@keyframes anim3 {
+100% {
+    stroke-dashoffset: 259;
+}
+}
+
+@keyframes anim4 {
+100% {
+    stroke-dashoffset: 141;
+}
+}
+
+@keyframes anim5 {
+100% {
+    stroke-dashoffset: 306;
+}
+}
+
+@media (max-width:767px) {
+.home-img .img {
+    width: 100%;
+}
+}
+/* end of diagnose style */
+/* diagonse forms style */
+
+h3 {
+color: #333;
+font-weight: bold;
+margin-top: 0;
+text-align: center;
+}
+
+form {
+width: 600px;
+margin: 30px auto;
+color: #999;
+border-radius: 3px;
+margin-bottom: 15px;
+background: #fff;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+padding: 40px;
+padding-top: 50px;
+}
+
+form hr {
+margin: 0 -30px 20px;
+}
+
+label {
+font-weight: 500;
+display: block;
+margin: 4px 0;
+text-transform: uppercase;
+font-size: 13px;
+overflow: hidden;
+}
+
+.form-controll {
+display: block;
+padding: 8px 16px;
+width: 100%;
+font-size: 16px;
+height: 41px;
+background: #f2f2f2;
+box-shadow: none !important;
+border: none;
+color: #fff;
+font-weight: 200;
+}
+
+&:focus {
+outline: 2px solid rgba(255, 255, 255, 0.5);
+outline: -webkit-focus-ring-color auto 5px;
+}
+
+form .btn {
+font-size: 18px;
+font-weight: bold;
+background: #077c38;
+border: none;
+min-width: 500px;
+}
+
+form .btn:hover {
+background: #5aa86e !important;
+outline: none;
+}
+
+.form-group {
+max-width: 500px;
+margin: auto;
+margin-bottom: 30px;
+}
+
+.file-area {
+width: 100%;
+position: relative;
+}
+
+input[type=file] {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0;
+cursor: pointer;
+}
+
+.file-dummy {
+width: 100%;
+padding: 30px;
+background: #f1f1f1;
+border: 2px dashed rgba(255, 255, 255, 0.89);
+text-align: center;
+transition: background 0.3s ease-in-out;
+}
+
+&:hover .file-dummy {
+background: rgba(255, 255, 255, 0.1);
+}
+
+input[type=file]:focus+.file-dummy {
+outline: 2px solid rgba(255, 255, 255, 0.5);
+outline: -webkit-focus-ring-color auto 5px;
+}
+
+input[type=file]:valid+.file-dummy {
+border-color: rgba(0, 255, 0, 0.4);
+background-color: rgba(0, 255, 0, 0.3);
+.default {
+    display: none;
+}
+        /* end of diagnose form style */

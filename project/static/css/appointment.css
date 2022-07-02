@@ -1,0 +1,52 @@
+
+.table{
+    border: 3px solid gray ;
+    
+}
+caption{
+    font-size: x-large;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    padding: 2rem;
+}
+th {
+font-size: 22px;
+border: 1px solid;
+padding: .9rem;
+text-align: left;
+border: 1px solid;
+}
+td {
+font-size: 20px; 
+font-weight: bold;   
+border : 2px solid;
+padding: .9rem;
+text-align: left;
+border: 1px solid;
+font-style: italic;
+}
+thead{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    color: beige;
+}
+
+p{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(27, 65, 105);
+    font-style: italic;
+    
+}
+h4{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+h5{
+    font-size: larger;
+    font-weight: bold;
+    
+}
